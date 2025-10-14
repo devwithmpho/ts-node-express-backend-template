@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req: Request, res: Response) => {
-	res.send('Server is running fine!')
+	res.send('Server is working!')
 })
 
 app.listen(PORT, () => {
