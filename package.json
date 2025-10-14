@@ -1,7 +1,7 @@
 {
 	"name": "ts-node-express-backend",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"dev": "nodemon",
 		"build": "tsc",
